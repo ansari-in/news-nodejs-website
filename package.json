@@ -4,6 +4,7 @@
   "description": "Q8: Node.js website ke liye ek news website",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ansariintesab",
