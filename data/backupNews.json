@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "source": { "name": "Local Backup" },
+      "title": "Backup News: API Not Available",
+      "description": "This is fallback news shown because API is not reachable.",
+      "url": "https://example.com",
+      "urlToImage": "https://via.placeholder.com/400x200",
+      "publishedAt": "2025-09-08T10:00:00Z"
+    }
+  ]
+}

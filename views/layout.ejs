@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My News Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/">📰 News Hub</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li><a class="nav-link" href="/">Home</a></li>
+          <li><a class="nav-link" href="/category/business">Business</a></li>
+          <li><a class="nav-link" href="/category/technology">Technology</a></li>
+          <li><a class="nav-link" href="/category/sports">Sports</a></li>
+          <li><a class="nav-link" href="/category/health">Health</a></li>
+          <li><a class="nav-link" href="/about">About Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container my-4">
+    <%- body %>
+  </div>
+
+  <footer class="bg-dark text-light text-center py-3">
+    <p>© 2025 My News Hub | Created By Ansari Intesab</p>
+  </footer>
+</body>
+</html>
